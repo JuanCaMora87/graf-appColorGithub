@@ -1,0 +1,69 @@
+/* Fondo general */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card principal */
+.card {
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+/* Título */
+h3 {
+    font-weight: 700;
+    color: #333;
+}
+
+/* Recuadro del color */
+#colorBox {
+    width: 100%;
+    height: 180px;
+    border-radius: 16px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: #444;
+}
+
+/* Inputs numéricos */
+input[type="number"] {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Color picker centrado y bonito */
+input[type="color"] {
+    width: 80px;
+    height: 45px;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Texto RGB y HEX */
+#rgbText {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#hexText {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #764ba2;
+}
+
+/* Espaciado entre sliders */
+.row {
+    margin-bottom: 10px;
+}

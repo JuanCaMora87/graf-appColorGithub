@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Fondo general */
 body {
     min-height: 100vh;
@@ -66,4 +67,74 @@ input[type="color"] {
 /* Espaciado entre sliders */
 .row {
     margin-bottom: 10px;
+=======
+body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.app-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.rgb-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.rgb-card h2 {
+    font-weight: 600;
+}
+
+.color-picker {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.control {
+    margin-bottom: 20px;
+}
+
+.control label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.control-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.control-row input[type="range"] {
+    flex: 1;
+}
+
+.control-row input[type="number"] {
+    width: 80px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#colorBox {
+    height: 120px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    margin-top: 20px;
+}
+
+.hex-display {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+>>>>>>> ab20173b30cc0f2c9355d2513642e164338172d1
 }
